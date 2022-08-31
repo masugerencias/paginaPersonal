@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+
+
+body {
+  font-family: "Poppins", serif;
+  color: rgb(214, 214, 214);
+  height: 100vh;
+  background-color: #f73030;
+
+  
+}
+
+h1{
+  color: #F86868;
+}
+
+img{
+  border-radius: 10px;
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  height: 100%;
+  
+}
+
+
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link {
+  list-style: none;
+  margin: 20px 0;
+  border-bottom: 2px solid white;
+  width: 8rem;
+}
+
+/* Navbar */
+.navbar {
+  background: rgb(20, 20, 20);
+  position: fixed;
+  width: 100%;
+}
+
+.flex-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-header span {
+  color: rgb(248, 104, 104);
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-toggle {
+  border: transparent;
+  background: transparent;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  height: 0;
+  overflow: hidden;
+}
+
+.nav-open {
+  height: 100vh;
+}
+
+@media only screen and (min-width: 900px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-header {
+    display: block;
+  }
+
+  .flex-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+  }
+
+  .nav-links {
+    height: auto;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  .nav-link {
+    display: inline-block;
+    border-bottom: none;
+  }
+
+  .nav-links span {
+    background: rgb(70, 70, 70);
+    padding: 8px 15px;
+    border-radius: 4px;
+  }
+
+.textoYbotones{
+  background-color: beige;
+  border-radius: 15px;
+  color: black;
+  margin-left: 18px;
+  margin-bottom: 23px;
+margin-right: 18px;
+}
+.contenedorGrandeBootcamp{
+  background-color: beige;
+}
+}
+
+
+
+
+
+
+
+
+/* INICIO */
+/* contenedor inicio (foto) y contenedor textp+botones */
+
+
+.contenedorInicio {
+  display: flex;
+  padding-top: 75px;
+/*   height: 150%;
+ */  flex-direction: column;
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 23px
+}
+
+.textoYbotones{
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.imagenInicio {
+  /* margin-right: 10px; */
+  /* display: flex; */
+  /* min-width: 100px; */
+  /* max-width: 200px; */
+  min-height: 10px;
+  min-width: 10px;
+}
+
+/* FORMACION contenedor formacion y sus formaciones */
+
+.contenedorFormacion {
+  display: flex;
+  flex-direction: column;
+  padding-top: 75px;
+  align-items: center;
+}
+.divFormacion{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid black 3px;
+  margin: 5px;
+}
+
+.fotoFormacion{
+  display: flex;
+}
+
+.formacionYboton{
+  display:flex;
+  flex-direction: column;
+}
+
+.textoFormacion{
+  display: flex;
+}
+
+.botonFormacion{
+  display: flex;
+}
+
+.imgFormacion{
+  max-width: 200px;
+  max-height: 200px;
+} 
+
+
+
+/* BOOTCAMP */
+
+
+  .contenedorGrandeBootcamp {
+    padding-top: 75px;
+    justify-content: center;
+    
+/*     display: flex; ESTO ME QUITA EL SCROLL DE HORIZONTAL
+ */    flex-direction: column;
+    align-items: center;
+}
+
+
+.imgBootcamp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 10px;
+  min-height: 10px;
+
+}
+
+
+.imgBootcamp {
+  max-width: 100vw; 
+  max-height: 100vh; 
+ 
+}
+
+.textoBootcamp{
+  text-align: justify;
+  padding : 15px;
+  color: black;
+  
+}
+
+.textoBootcamp a {
+  color: black;
+  font-style: italic;
+  text-decoration:underline;
+}
+
+.diplomasBootcamp{
+  display: flex;
+  justify-content: center;
+}
+.imgDiplomaBootcamp {
+  max-width: 100%;
+}
+/* HORIZONTAL SCROLL */
+  div.scrollmenu {
+    background-color: rgb(212, 59, 59);
+    overflow: auto;
+    white-space: nowrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 10px;
+
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+/* PROYECTO EXPRESS */
+.contenedorInicio2 {
+  color: black;
+  padding-top: 85px;
+}
+
+/* PANTALLA PC */
+
+@media (min-width: 400px){
+  .contenedorInicio {
+    
+      flex-direction: row;
+          
+  }
+
+  .textoBootcamp{
+    padding: 40px;
+  }
+
+
+  img{
+    max-width: 500px;
+  }
+
+
+
+  .diplomasBootcamp{
+    max-width: 500px;
+    margin-left: 25%;
+  }
+
+ 
+
+  .contenedorGrandeBootcamp {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+  .contenedorInicio2{
+    padding: 20px;
+    padding-top: 85px;
+  }
+  .divFormacion {
+width: 50%;
+justify-content: left ;
+
+
+  }
+}
+
+
