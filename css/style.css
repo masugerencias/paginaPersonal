@@ -248,6 +248,9 @@ margin-right: 18px;
     align-items: center;
 }
 
+.textoBootcamp span{
+  font-weight:bold;
+}
 
 .imgBootcamp {
   display: flex;
