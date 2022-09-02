@@ -370,3 +370,32 @@ justify-content: left ;
 }
 
 
+
+/* SCROLL MENU CONTACTO */
+div.scrollmenuContacto {
+  background-color: rgb(212, 59, 59);
+  overflow: auto;
+  white-space: nowrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin: 10px;
+  border-radius: 60px;
+
+}
+
+div.scrollmenuContacto a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+div.scrollmenuContacto a:hover {
+  background-color: #777;
+}
+
+
+.scrollmenuContacto img{
+max-width: 100px;
+}
