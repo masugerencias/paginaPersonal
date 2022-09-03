@@ -408,3 +408,15 @@ max-width: 100px;
 .telefonoIcono{
   border-radius: 100%;
 }
+
+
+/* HOVER A ENLACES */
+
+.divFormacion:hover {
+   background-color:#ff0000;
+  
+  transition: ease-in 0.2s;
+  border-radius: 50px; /*Aqui se redondean sus bordes verdes...*/
+  
+  
+}
