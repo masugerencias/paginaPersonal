@@ -103,6 +103,8 @@ a {
     display: none;
   }
 
+ 
+
   .nav-header {
     display: block;
   }
@@ -399,4 +401,10 @@ div.scrollmenuContacto a:hover {
 
 .scrollmenuContacto img{
 max-width: 100px;
+}
+
+
+
+.telefonoIcono{
+  border-radius: 100%;
 }
