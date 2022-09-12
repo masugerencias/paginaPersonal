@@ -327,12 +327,8 @@ margin-right: 18px;
 
 /* PANTALLA PC */
 
-@media (min-width: 400px){
-  .contenedorInicio {
-    
-      flex-direction: row;
-          
-  }
+@media (min-width: 500px){
+  
 
   .textoBootcamp{
     padding: 40px;
