@@ -327,6 +327,23 @@ margin-right: 18px;
 
 /* PANTALLA PC */
 
+
+@media (min-width: 600px){
+
+.contenedorInicio {
+  display: flex;
+  padding-top: 75px;
+  /* height: 150%; */
+  flex-direction: row;
+}
+.imagenInicio{
+max-width: 500px;
+min-width: 500px;
+max-height: 500px;
+min-height: 500px;
+}
+}
+
 @media (min-width: 500px){
   
 
@@ -366,6 +383,8 @@ justify-content: left ;
 
 
   }
+
+ 
 }
 
 
